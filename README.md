@@ -36,20 +36,7 @@ The main purpose of this project is:
 - **CSS** – Styling and animations  
 - **JavaScript** – Button actions and logic  
 
----
-
-## 📁 Folder Structure
-
-sos-emergency-app/
-│
-├── index.html → Main HTML file
-├── style.css → Styling and UI design
-├── script.js → JavaScript logic
-└── README.md → Project documentation
-
-
-
-
+--
 
  ▶ How to Run the Project
 
