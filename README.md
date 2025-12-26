@@ -47,13 +47,18 @@ sos-emergency-app/
 ├── script.js → JavaScript logic
 └── README.md → Project documentation
 
+
+
+
+
  ▶ How to Run the Project
 
 1. Download or clone the repository
    ```bash
    git clone https://github.com/your-username/sos-emergency-app.git
 
-   How the App Works
+
+  HOW THIS APP WORKS
 
 User clicks the SOS button
 
