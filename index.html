@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS Emergency App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="flash-overlay" id="flashOverlay"></div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🚨 SOS Emergency</h1>
+            <p>Your safety, one tap away</p>
+        </div>
+
+        <div class="content">
+            <button class="sos-button" id="sosButton">SOS</button>
+
+            <div class="timer" id="timer">5</div>
+
+            <div class="status" id="status">
+                <h3>⚠ Emergency Mode Active</h3>
+                <p>Location shared • Contacts notified • Alarm activated</p>
+            </div>
+
+            <button class="cancel-btn" id="cancelBtn">Cancel Emergency</button>
+
+            <div class="features">
+                <div class="feature-item" id="feature1">
+                    <div class="feature-icon">📍</div>
+                    <div class="feature-text">
+                        <h4>Live Location</h4>
+                        <p>GPS tracking enabled</p>
+                    </div>
+                </div>
+
+                <div class="feature-item" id="feature2">
+                    <div class="feature-icon">📱</div>
+                    <div class="feature-text">
+                        <h4>Alert Contacts</h4>
+                        <p>SMS & calls to emergency contacts</p>
+                    </div>
+                </div>
+
+                <div class="feature-item" id="feature3">
+                    <div class="feature-icon">🔊</div>
+                    <div class="feature-text">
+                        <h4>Loud Alarm</h4>
+                        <p>Siren to attract attention</p>
+                    </div>
+                </div>
+
+                <div class="feature-item" id="feature4">
+                    <div class="feature-icon">📸</div>
+                    <div class="feature-text">
+                        <h4>Auto Recording</h4>
+                        <p>Camera & audio recording</p>
+                    </div>
+                </div>
+
+                <div class="feature-item" id="feature5">
+                    <div class="feature-icon">💡</div>
+                    <div class="feature-text">
+                        <h4>Flash Signal</h4>
+                        <p>Screen flashing for visibility</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-contacts">
+                <h3>📞 Emergency Contacts</h3>
+                <div class="contact-item">
+                    <span class="contact-name">Mom</span>
+                    <span class="contact-status" id="contact1">Ready</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Dad</span>
+                    <span class="contact-status" id="contact2">Ready</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Best Friend</span>
+                    <span class="contact-status" id="contact3">Ready</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
